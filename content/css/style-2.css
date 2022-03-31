@@ -1,0 +1,267 @@
+.section-featured {
+  margin: 4.4rem 0 3.2rem 0;
+}
+.logos img {
+  height: 4rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center;
+  justify-content: center; */
+}
+.heading-featured-in {
+  text-align: center;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: #bbb;
+}
+
+.meals-img {
+  width: 100%;
+}
+.meals-featured {
+  text-align: center;
+  margin: 2rem 0;
+}
+.meal-span {
+  display: block;
+
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #cf711f;
+  margin-bottom: 1.6rem;
+}
+.heading-meals {
+  font-size: 4.6rem;
+  letter-spacing: 0.2px;
+  color: #222;
+  margin-bottom: 6.4rem;
+}
+.meals-text-box {
+  padding: 2.4rem 3.2rem 4.8rem 3.2rem;
+}
+.tag {
+  display: inline-block;
+  border-radius: 1000px;
+  padding: 5px 10px;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+.name-card {
+  font-size: 2.4rem;
+  padding-bottom: 3rem;
+}
+.meals-list {
+  list-style: none;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 4.8rem;
+}
+.meals {
+  margin: 9.6rem 0;
+}
+.icon {
+  color: #cf711f;
+
+  height: 2rem;
+  width: 2rem;
+}
+.meals-link {
+  display: flex;
+
+  gap: 2rem;
+}
+.meals-img-box {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.8s;
+}
+.meals-img-box:hover {
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.3);
+  transform: translateY(-1.2rem);
+}
+.tags {
+  display: flex;
+  gap: 6px;
+}
+.tag-vege {
+  background-color: #40c057;
+}
+.tag-vegan {
+  background-color: #94d82d;
+  color: #333;
+}
+.tag-paleo {
+  background-color: #ffd43b;
+  color: #333;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.icon-list {
+  height: 3rem;
+  width: 3rem;
+  color: #cf711f;
+}
+.item-list {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  line-height: 1.2;
+}
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #f59f00;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+/*testimonials section*/
+
+.section-testimonials {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  background-color: #ffdeeb;
+  align-items: center;
+}
+.testimonials-container {
+  padding: 9.6rem;
+}
+.testimonials-img {
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.testimonials-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.testimonials-author {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+.testimonals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem;
+}
+.galary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+.gallery-item {
+  overflow: hidden;
+}
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.5s;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+.section-pricing {
+  padding: 9.6rem 0;
+}
+.header-plan {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.plan-name {
+  color: #cf711f;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.7;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+.plan-price {
+  font-size: 6.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2rem;
+}
+.plan-price span {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+.plan-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #444;
+}
+.plan-sign-up {
+  margin-top: 4.8rem;
+  text-align: center;
+}
+.pricing-plan {
+  border-radius: 1.2rem;
+  /* margin-bottom: 9.6rem; */
+
+  width: 75%;
+}
+.pricing-plan-starter {
+  justify-self: end;
+  border: 2px solid #ddd;
+  padding: 4.6rem;
+}
+.pricing-plan-complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan-complete::after {
+  content: "Best value";
+  font-size: 1.6rem;
+  font-weight: 700;
+  top: 0;
+  right: 0;
+  color: #222;
+  text-transform: uppercase;
+
+  background-color: #ffd43b;
+  position: absolute;
+  padding: 8px 66px;
+  transform: rotate(45deg) translateX(30%);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
